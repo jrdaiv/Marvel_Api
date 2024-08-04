@@ -1,0 +1,74 @@
+html{
+    background-color: black;
+
+}
+.body{
+    padding: 25px;
+    margin: 25px;
+    background-image: url(/src/assets/Marvel\ Heroes\ Aesthetic.jpg);
+}
+
+.character-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 25px;
+}
+.character-grid h3{
+    color: white;
+}
+.character-card{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.character-card:hover{
+    transform: scale(1.1);
+}
+
+.character-card img{
+    width:100%;
+    height: auto;
+}
+
+.character-card h3{
+    color: whitesmoke;
+}
+
+.card{
+    margin: 20px auto;
+    width: 800px;
+    /* border: 2px solid white; */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    /* overflow: hidden; */
+
+}
+.card img-top{
+    border-bottom: 1px solid #ddd;
+    width: 300px;
+}
+.card-body{
+    padding: 20px;
+}
+.card-title{
+    font-size: xx-large;
+    margin-bottom: 10px;
+    color: white;
+}
+.list-group-item{
+    color: white;
+    font-size: xx-large;
+}
+.card-text{
+    font-size: xx-large;
+    color: white;
+}
+.list-group-item:first-child{
+    font-weight: bold;
+
+}
